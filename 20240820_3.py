@@ -77,4 +77,6 @@ plt.savefig("./result/scatter2.png")
 
 # 그래프 보여주기
 plt.show()
-
+# print(model.coef_, model.intercept_)->가중치 찾기. 방정식을 만들어내는 것. y=ax+b에서 a와 b의 값을 찾아낸 것.
+# kfold = kFold(n_splits=5)
+#mse = cross_val_score(model, X, Y, scoring='neg_mean_squared')
